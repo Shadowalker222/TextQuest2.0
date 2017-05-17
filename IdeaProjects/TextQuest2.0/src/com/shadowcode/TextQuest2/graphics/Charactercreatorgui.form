@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.shadowcode.TextQuest2.graphics.Charactercreatorgui">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="16" column-count="12" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="555" height="481"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="dfd89" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="10" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="3"/>
+          <foreground color="-1"/>
+          <text value="Character Creator"/>
+        </properties>
+      </component>
+      <component id="3dabd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="2"/>
+          <foreground color="-1"/>
+          <text value="Name:"/>
+        </properties>
+      </component>
+      <component id="397b6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="2"/>
+          <foreground color="-1"/>
+          <text value="Class:"/>
+        </properties>
+      </component>
+      <component id="90c83" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="10" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="2"/>
+          <foreground color="-1"/>
+          <text value="Ability Scores:"/>
+        </properties>
+      </component>
+      <hspacer id="3ae8c">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="10" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="42385" class="javax.swing.JTextField" binding="NameField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Type your character's name here..."/>
+        </properties>
+      </component>
+      <component id="a96a0" class="javax.swing.JComboBox" binding="Classes">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="8" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="11" style="0"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Mage"/>
+            <item value="Priest"/>
+            <item value="Hunter"/>
+            <item value="Fighter"/>
+          </model>
+        </properties>
+      </component>
+      <component id="dabfa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-8197633"/>
+          <text value="Intelligence"/>
+        </properties>
+      </component>
+      <component id="c713d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-6035"/>
+          <text value="Wisdom"/>
+        </properties>
+      </component>
+      <component id="96686" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Charisma"/>
+        </properties>
+      </component>
+      <component id="76467" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-59892"/>
+          <text value="Constitution"/>
+        </properties>
+      </component>
+      <component id="a33ed" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Dexterity"/>
+        </properties>
+      </component>
+      <component id="5bcd3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Strength"/>
+        </properties>
+      </component>
+      <component id="2c7c8" class="javax.swing.JSpinner" binding="IntelligenceValue">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b6575" class="javax.swing.JSpinner" binding="WisdomValue">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ed04c" class="javax.swing.JSpinner" binding="CharismaValue">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="24612" class="javax.swing.JSpinner" binding="ConstitutionValue">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3fc4f" class="javax.swing.JSpinner" binding="DexterityValue">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f1a0" class="javax.swing.JSpinner" binding="StrengthValue">
+        <constraints>
+          <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8d8bf" class="javax.swing.JTextPane" binding="Instructions">
+        <constraints>
+          <grid row="9" column="3" row-span="4" col-span="6" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="11" style="0"/>
+          <foreground color="-1"/>
+          <text value="You have a total of 80 Ability Points to split as you see fit among 6 Ability Scores. The 6 Ability Scores are as follows: Intelligence, Wisdom, Charisma, Constitution, Dexterity, and Strength. Each one affects your character in a different way. Intelligence and Wisdom affect the damage dealt by Mages' and Priests' spells, respectively. They also affect the amount of Magica Mages and Priests have, also respectively. Constitution directly influences your character's maximum health. Dexterity is used mainly for Armour (as dodge) but is also added to the damage done by ranged weapons. Strength is added to the damage done by melee weapons."/>
+        </properties>
+      </component>
+      <hspacer id="502ad">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="10" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="59edc" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15299840"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
